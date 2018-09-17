@@ -751,14 +751,14 @@ textarea::-ms-input-placeholder
 
 .contact{
     background: #3b404c;
-    padding: 80px 0;
+    padding: 35px 0;
 }
 .contact h1,h5{
     color: #ffffff;
 }
 
 .contact-top{
-    margin-bottom:100px;
+    margin-bottom:60px;
 }
 .contact-top h1{
     font-size: 36px;
@@ -774,7 +774,7 @@ textarea::-ms-input-placeholder
     color: #d4bed5;
 }
 .contact-left-info{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .contact-left-info h5{
     text-transform: uppercase;
@@ -824,8 +824,9 @@ textarea::-ms-input-placeholder
 
 /* Footer Area */
 .footer{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background: #3b404c;
+    padding-top: 25px;
+    padding-bottom: 15px;
     position: relative;
 }
 .copyright{
