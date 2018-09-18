@@ -515,7 +515,7 @@ textarea::-ms-input-placeholder
 
 .service-item h5{
     text-transform: uppercase;
-    color: #3a3f4b;
+    color: #373b44;
     font-family: 'lorabold';
 }
 
@@ -530,7 +530,9 @@ textarea::-ms-input-placeholder
     margin-bottom: 10px;
 }
 
-
+.service-item p{
+    color: #353941;;
+}
 
 
 /* Portfolio Section */
@@ -833,8 +835,13 @@ textarea::-ms-input-placeholder
     font-family: 'open_sansregular';
     font-size: 15px;
 }
+.social a{
+    color:rgb(221, 215, 215);
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif
+}
 .social a i{
-    background: #999999;
+    
     color: #ffffff;
     height: 35px;
     width: 35px;
@@ -844,8 +851,8 @@ textarea::-ms-input-placeholder
     text-align: center;
     transition: .3s ease-in-out;
 }
-.social a i:hover{
-    background: #00a5ff;
+.social a:hover{
+    color: #92c5ee;
 }
 
 
