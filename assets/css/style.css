@@ -218,7 +218,7 @@ Section
     overflow: hidden;
 }
 .sections.footer {
-    padding-bottom: 80px;
+    padding-bottom: 10px;
 }
 section .subtitle h5 {
     margin-top: 10px;
@@ -826,12 +826,14 @@ textarea::-ms-input-placeholder
 
 /* Footer Area */
 .footer{
+    text-align: center;
     background: #3b404c;
-    padding-top: 25px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
 }
 .copyright{
+    text-align: center;
     font-family: 'open_sansregular';
     font-size: 15px;
 }
