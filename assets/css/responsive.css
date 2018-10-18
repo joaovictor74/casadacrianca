@@ -8,7 +8,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     body {
-        font-size: 15px;
+        font-size: 17px;
     }
 
 
@@ -53,11 +53,14 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         border-color:none;
-        background: #00a5ff;
+        background: #c7a0ca;
     }
     .brand-identity{
         text-align: center;
-        margin-bottom:50px;
+        
+        display: block;
+        overflow: hidden;
+        padding: 0;
     }
     .home-content h1 {
         font-size: 35px;
@@ -81,14 +84,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .item .details p {
         font-size: 20px;
     }
-    #quote-carousel .carousel-indicators li {
-        width: 70px;
-        height: 70px;
-    }
-    #quote-carousel .carousel-indicators .active {
-        width: 90px;
-        height: 90px;
-    }
 
     .scrollup {
         width: 50px;
@@ -97,16 +92,28 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         bottom: 90px;
     }
     .navbar {
-        background: #00a5ff;
+        background: #d4bed5;
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-        margin-top: 20px;
+        margin-top: 10px;
     }
-    .owl-carousel .owl-item img {
-        width:50%;
-        margin: 0 auto;
+    .contact{
+        background: #3b404c;
+        padding: 35px 0;
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        position:relative;
+        
     }
-
+    .map{
+        width:330px; 
+        height:160px;
+    }
 }
 
 
@@ -117,9 +124,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
         font-size: 65%;
     }
     .brand-identity{
+        
         text-align: center;
-        margin-bottom:50px;
+        margin-bottom:10px;
     }
+   
     .home-content h1 {
         font-size: 22px;
     }
@@ -147,23 +156,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     .item .details p {
         font-size: 16px;
     }
-    #quote-carousel .carousel-indicators li {
-        width: 50px;
-        height: 50px;
-    }
-    #quote-carousel .carousel-indicators .active {
-        width: 70px;
-        height: 70px;
-    }
-    #quote-carousel .carousel-control.left {
-        left:0px;
-    }
-    #quote-carousel .carousel-control.right {
-        right:0px;
-    }
-    #quote-carousel .carousel-control {
-        top:30px;
-    }
+   
     .item .details p{
         font-size: 15px;
     }
