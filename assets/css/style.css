@@ -263,7 +263,7 @@ section .subtitle-half h5 {
 }
 .home-overlay-fluid {
     background-color: rgba(41, 41, 41, 0.329);
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 .overlay-img {
@@ -343,9 +343,6 @@ Button
     background-color: #333;
 }
 
-/*.btn-default:active, .btn-default:hover  {
-    background: transparent;
-}*/
 
 
 /*
@@ -418,40 +415,7 @@ h1 span {
     font-weight: 400;
 }
 
-/*for placeholder changes*/
 
-/*input::-webkit-input-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}
-input::-moz-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}
-input:-ms-input-placeholder {
-  color: #CACACA;
-  font-size: 18px;
-}
-textarea::-webkit-input-placeholder
-{
-  color: #CACACA;
-  font-size: 18px;
-  text-align:center;
-}
-textarea::-moz-input-placeholder
-{
-  color: #CACACA;
-  font-size: 18px;
-  text-align:center;
-}
-textarea::-ms-input-placeholder
-{
-  color: #CACACA;
-  font-size: 18px;
-  text-align:center;
-}
-
-*/
 
 
 /*For Menu Bar*/
@@ -487,8 +451,11 @@ textarea::-ms-input-placeholder
 
 /*For Home Section*/
 .home{
-    background: url(../images/enxovais/Enxoval-Fem.jpg) ;
+    background: url(../images/criancas/bebe2-red.jpg) ;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .home-content{
     margin-top: 150px;
@@ -599,14 +566,6 @@ textarea::-ms-input-placeholder
     border-bottom: 1px solid #d4bed5;
 }
 
-/*.button:active,
-.button.is-checked {
-    color: #00a5ff;
-    border-bottom: 1px solid #00a5ff;
-}
-.button.is-checked {
-    border-bottom: 1px solid #00a5ff;
-}*/
 
 .button:active {
     outline:none;
@@ -622,17 +581,6 @@ textarea::-ms-input-placeholder
     margin-right: 1px;
 }
 
-
-/* ---- .element-item ---- */
-
-/*.element-item {
-    position: relative;
-    float: left;
-    color: #262524;
-    width: 30%;
-    margin-top: 30px;
-    margin-left: 30px;
-}*/
 
 .portfolio-item{
     margin-top:30px;
@@ -653,11 +601,15 @@ textarea::-ms-input-placeholder
 /* Brand Sections */
 .brand-identity{
     width: 100%;
+    height:100%;
     display: block;
     overflow: hidden;
+
 }
-.owl-carousel .owl-item img {
-    width:70%;
+
+.navbar-brand{
+    padding: 0;
+    margin: -10;
 }
 
 /* Testimonial Section */
@@ -682,78 +634,21 @@ textarea::-ms-input-placeholder
     padding-top: 30px;
 }
 
-#quote-carousel {
-    padding: 0 10px 30px 10px;
-    margin-top: 30px;
-    /* Control buttons  */
-    /* Previous button  */
-    /* Next button  */
-    /* Changes the position of the indicators */
-    /* Changes the color of the indicators */
-}
-#quote-carousel .carousel-control {
-    background: none;
-    color: #CACACA;
-    font-size: 2.3em;
-    text-shadow: none;
-    position: relative;
-    z-index: 10;
-    top: -230px;
-}
-#quote-carousel .carousel-control.left {
-    left: -60px;
-    float: left;
-}
-#quote-carousel .carousel-control.right {
-    right: -60px;
-    float: right;
-}
-#quote-carousel .carousel-indicators {
-    right: 50%;
-    top:-160px;
-    margin-right: -19px;
-}
-#quote-carousel .carousel-indicators li {
-    width: 90px;
-    height: 90px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 50px;
-    opacity: 0.4;
-    overflow: hidden;
-    border: 2px solid #f5f6f8;
-    transition: all 0.4s;
-}
-#quote-carousel .carousel-indicators .active {
-    background: #333333;
-    width: 110px;
-    height: 110px;
-    border-radius: 100px;
-    opacity: 1;
-    overflow: hidden;
-    border: 2px solid #f5f6f8;
-}
-.carousel-inner {
-    margin-top:200px;
-}
-.item {
-    border-left: none;
-    color: #000000;
-}
-/*.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}*/
 
 
 
 /* Contact Section */
 
 .contact{
-    background: #3b404c;
+    background: url(../images/criancas-logo-red.jpg);
     padding: 35px 0;
+    width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    
 }
 .contact h1,h5{
     color: #ffffff;
@@ -785,7 +680,7 @@ textarea::-ms-input-placeholder
 }
 .contact-form .form-group label{
     font-size: 22px;
-    color: #3b404c;
+    color: #36383d;
     margin-bottom: 10px;
 }
 .contact-form button{
@@ -838,7 +733,7 @@ textarea::-ms-input-placeholder
     font-size: 15px;
 }
 .social a{
-    color:rgb(221, 215, 215);
+    color:rgb(146, 146, 146);
     font-size: 18px;
     font-family:Arial, Helvetica, sans-serif
 }
