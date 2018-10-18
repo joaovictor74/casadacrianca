@@ -81,6 +81,7 @@ a span {
     /*    direction: rtl;*/
 }
 p {
+    font-family:sans-serif;
     margin: 0 0 15px;
 }
 .clear {
@@ -88,6 +89,7 @@ p {
 }
 ol,
 ul {
+    
     list-style: none;
     padding: 0;
 }
@@ -741,9 +743,17 @@ h1 span {
 }
 .copyright{
     text-align: center;
-    font-family: 'open_sansregular';
+    font-family: sans-serif;
     font-size: 15px;
     color: #fff;
+}
+.email a{
+    color:rgb(146, 146, 146);
+
+}
+.email a:hover{
+    color:#92c5ee;
+
 }
 .social a{
     color:rgb(146, 146, 146);
